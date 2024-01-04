@@ -14,7 +14,7 @@ void main() {
   print("Enter 3rd number : ");
   int? third = int.parse(stdin.readLineSync()!);
 
-  // To find largest number
+  // To find the largest number
   if (first > second && first > third) {
     print("${first} is largest");
   } else if (second > first && second > third) {
@@ -23,7 +23,7 @@ void main() {
     print("${third} is largest");
   }
 
-  // To find smallest number
+  // To find the smallest number
   if (first < second && first < third) {
     print("${first} is smallest");
   } else if (second < first && second < third) {

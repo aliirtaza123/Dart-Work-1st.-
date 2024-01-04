@@ -2,10 +2,10 @@ import "dart:io";
 
 void main() {
   print("Enter Ali,s age : ");
-  int? aliAge = int.parse(stdin.readLineSync()!);
+  int? aliAge = int.parse(stdin.readLineSync()!); // Input for 1st user
 
   print("Enter Hamza,s age : ");
-  int? hamzaAge = int.parse(stdin.readLineSync()!);
+  int? hamzaAge = int.parse(stdin.readLineSync()!); // Input for 2nd user
 
   if (aliAge < hamzaAge) {
     print("Ali is youngest then Hamza");

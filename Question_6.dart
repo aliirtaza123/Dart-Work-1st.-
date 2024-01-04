@@ -1,7 +1,10 @@
 import 'dart:io';
 
 void main() {
-  print(" * To check vowel and consonent : ");
+  print("""
+   =====================================
+  |  * To check vowel and consonent :   | 
+   =====================================""");
 
   print("Enter any letter : ");
   String? letter = stdin.readLineSync();

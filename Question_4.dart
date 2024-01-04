@@ -8,7 +8,7 @@ void main() {
   int celsius = int.parse(stdin.readLineSync()!);
   //int celsius = 34;
   var fahrenheit = ((celsius) * 9 / 5 + 32);
-  print("""==========================================
-| * Temperature in Fahrenheit  : ${fahrenheit} F |   
-==========================================\n""");
+  print(""" ==========================================
+| * Temperature in Fahrenheit  : ${fahrenheit} F  |   
+ ==========================================\n""");
 }

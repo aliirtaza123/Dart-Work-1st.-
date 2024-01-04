@@ -2,7 +2,7 @@ import "dart:io";
 
 void main() {
   print(""" ==========================================
-| \t* Student Marksheet         \t   |
+| \t * Student Marksheet         \t   |
  ==========================================""");
 
   print("| * Enter student name : ");

@@ -11,10 +11,9 @@ void main() {
 
   double result = classesattend / classesHeld * 100;
   if (result >= 75.0) {
-    print(" * You can sit in the exam , & your attendence marks is ${result}%");
+    print(" * You can sit in the exam , your attendence marks is ${result}%");
   } else if (result < 75.0) {
-    print(
-        " * You don't sit in the exam b/c your attendence marks is ${result}%");
+    print(" * You don't sit in the exam, your attendence marks is ${result}%");
   } else {
     print(" * Sorry invalid attendence result");
   }

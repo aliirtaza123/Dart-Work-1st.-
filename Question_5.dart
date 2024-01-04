@@ -2,7 +2,8 @@ import 'dart:io';
 
 void main() {
   print("Enter temp : ");
-  int? tempIncentigrade = int.parse(stdin.readLineSync()!);
+  int? tempIncentigrade =
+      int.parse(stdin.readLineSync()!); // Input temperature in centigrate
 
   if (tempIncentigrade >= 40) {
     print(" * Its very hot");
